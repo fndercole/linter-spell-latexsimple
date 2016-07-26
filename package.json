@@ -1,0 +1,50 @@
+{
+  "name": "spell-simple",
+  "version": "0.0.0",
+  "description": "Provides spell-check for TeX/LaTeX files, using linter-spell",
+  "keywords": [
+    "tex",
+    "latex",
+    "spell-check",
+    "linter-spell"
+  ],
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "lodash": "^4.13.0",
+    "atom-package-deps": "^4.0.0"
+  },
+  "devDependecies": {
+    "semver": "^5.3.0"
+  },
+  "package-deps": [
+    "linter-spell",
+    "language-latexsimple"
+  ],
+  "standard": {
+    "parser": "babel-eslint",
+    "globals": [
+      "atom",
+      "latex",
+      "afterEach",
+      "beforeEach",
+      "describe",
+      "expect",
+      "it",
+      "jasmine",
+      "runs",
+      "spyOn",
+      "waitsFor",
+      "waitsForPromise"
+    ]
+  },
+  "providedServices": {
+    "linter-spell-grammar": {
+      "versions": {
+        "1.0.0": "provideGrammar"
+      }
+    }
+  }
+}
