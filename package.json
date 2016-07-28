@@ -1,5 +1,6 @@
 {
-  "name": "spell-simple",
+  "name": "linter-spell-latexsimple",
+  "main": "./lib/main",
   "version": "0.0.0",
   "description": "Provides spell-check for TeX/LaTeX files, using linter-spell",
   "keywords": [
