@@ -1,7 +1,7 @@
 {
   "name": "linter-spell-latexsimple",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Provides spell-check for TeX/LaTeX files, using linter-spell",
   "keywords": [
     "tex",
